@@ -1,0 +1,16 @@
+diff --git a/.npmignore b/.npmignore
+deleted file mode 100644
+index 595cb6ac9d8327595a018845d33c6af362633444..0000000000000000000000000000000000000000
+diff --git a/dist/jquery.js b/dist/jquery.js
+index 96d6f30bb73d4400e090994c4ff16373761ff658..5d2311d64b078161d80f025ef6e0f0e0c82808e4 100644
+--- a/dist/jquery.js
++++ b/dist/jquery.js
+@@ -13,7 +13,7 @@
+  */
+ 
+ (function( global, factory ) {
+-
++	console.log("Well, well");
+ 	if ( typeof module === "object" && typeof module.exports === "object" ) {
+ 		// For CommonJS and CommonJS-like environments where a proper `window`
+ 		// is present, execute the factory and get jQuery.

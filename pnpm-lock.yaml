@@ -1,0 +1,44 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+patchedDependencies:
+  jquery@2.1.2:
+    hash: gwt672ttxjf3hjrj7ryjqchuku
+    path: patches/jquery@2.1.2.patch
+
+dependencies:
+  jquery:
+    specifier: ^2.1.2
+    version: 2.1.2(patch_hash=gwt672ttxjf3hjrj7ryjqchuku)
+  opencolor:
+    specifier: ^0.1.0
+    version: 0.1.0
+
+devDependencies:
+  is-array:
+    specifier: ^1.0.1
+    version: 1.0.1
+
+packages:
+
+  /is-array@1.0.1:
+    resolution: {integrity: sha512-gxiZ+y/u67AzpeFmAmo4CbtME/bs7J2C++su5zQzvQyaxUqVzkh69DI+jN+KZuSO6JaH6TIIU6M6LhqxMjxEpw==}
+    dev: true
+
+  /jquery@2.1.2(patch_hash=gwt672ttxjf3hjrj7ryjqchuku):
+    resolution: {integrity: sha512-lTpLlq6AjgvfzuoDwEt7miqoQ9CqrI08yi920il08UrJ71ZWWXXkNmOuPlpPKulsT5lBgR27iIT9ghIb0Tttuw==}
+    dev: false
+    patched: true
+
+  /opencolor@0.1.0:
+    resolution: {integrity: sha512-xu4HUFAFqOLqtORe0j2o4TJLeeTDYIUCAGh35UlYZX2kesrCpHRx6qnNzCn9/0uePjCzb2HQdj94Muxyhrcsgw==}
+    dependencies:
+      tinycolor2: 1.6.0
+    dev: false
+
+  /tinycolor2@1.6.0:
+    resolution: {integrity: sha512-XPaBkWQJdsf3pLKJV9p4qN/S+fm2Oj8AIPo1BTUhg5oxkvm9+SVEGFdhyOz7tTdUTfvxMiAs4sp6/eZO2Ew+pw==}
+    dev: false
